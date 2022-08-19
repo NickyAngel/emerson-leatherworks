@@ -1,11 +1,11 @@
-import Navbar from 'react-bootstrap/Navbar';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import React from 'react';
+import Navbar from "react-bootstrap/Navbar";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import React from "react";
 
 function NavBar() {
   return (
-    <div className="App">
+    <div>
       <Navbar bg="light" expand="lg" sticky="top">
         <Container>
           <Navbar.Brand>Emerson Leatherworks</Navbar.Brand>

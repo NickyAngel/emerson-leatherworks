@@ -1,11 +1,13 @@
-.App {
-  background-color: coral;
-  background-size: 100%;
-}
 .cards {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 .card {
   margin: 10px;
+}
+.btn {
+  background-color: #4fffdc !important;
+  color: black !important;
+  border-color: #4fffdc !important;
 }
