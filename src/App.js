@@ -12,7 +12,7 @@ import history from "./history";
 
 function App() {
   return (
-    <body>
+    <div>
       <Navbar />
       <Router history={history}>
         <Switch>
@@ -33,7 +33,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </body>
+    </div>
   );
 }
 
