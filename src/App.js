@@ -2,12 +2,12 @@ import "./App.css";
 import React from "react";
 import { Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Contact from "./Contact";
-import Wallet from "./Wallet";
-import Lighter from "./Lighter";
-import Other from "./Other";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Wallet from "./components/Wallet";
+import Lighter from "./components/Lighter";
+import Other from "./components/Other";
 import history from "./history";
 
 function App() {
